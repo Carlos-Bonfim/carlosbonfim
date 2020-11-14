@@ -140,10 +140,10 @@ video {
   content: '';
   opacity: 0.75;
   background: #1C1C1C; /* Old browsers */
-  background: -moz-linear-gradient(top, #1C1C1C 90%, #E25822 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #1C1C1C 90%,#E25822 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #1C1C1C 90%,#E25822 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1C1C', endColorstr='#E25822',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, #1C1C1C 0%, #1C1C1C 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1C1C1C 0%,#1C1C1C 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1C1C1C 0%,#1C1C1C 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1C1C', endColorstr='#1C1C1C',GradientType=0 ); /* IE6-9 */
   position:fixed;
   left:0;
   top:0;
@@ -223,10 +223,10 @@ video {
   flex: 1 0 auto;
 }
 .preloader {
-  background: -moz-linear-gradient(top, #E25822 0%, #1C1C1C 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #E25822 0%,#1C1C1C 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #E25822 0%,#1C1C1C 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E25822', endColorstr='#1C1C1C',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, #1C1C1C 0%, #1C1C1C 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #1C1C1C 0%,#1C1C1C 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #1C1C1C 0%,#1C1C1C 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1C1C', endColorstr='#1C1C1C',GradientType=0 ); /* IE6-9 */
   height: 100%;
   left: 0;
   position: fixed;
@@ -409,7 +409,7 @@ a#logo {
   display:inline-block;
   line-height:50px;
   text-align:center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(226, 88, 34, 0.6);
   color: rgba(255,255,255,1);
   font-size:18px;
 }
