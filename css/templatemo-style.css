@@ -362,6 +362,16 @@ a#logo {
 
 
 
+@media (max-width: 768px) {
+    #mobile-header {
+        background-color: #E25822;
+    }
+    .main-navigation .main-nav ul li a {
+        background-color: #fff;
+    }
+}
+
+
 
 /* USE PARA DROPDOWN OPTIONS
 .dropdown:hover .dropdown-menu {
