@@ -421,21 +421,23 @@ a#logo {
 ================================================*/
 .welcome-box {
   font-size:20px;
-  line-height:1.7;
+  line-height:1.5;
 }
 .welcome-first{
   font-size: 32px;
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 300;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding:3;
 }
 .welcome-box p {
-  max-width: 1000px;
+  max-width: 1100px;
   width:100%;
   margin:0 auto 30px;
   color: #fff;
+  padding:30px;
 }
 .welcome-title {
   font-weight: 700;
