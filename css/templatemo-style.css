@@ -76,9 +76,20 @@ a:focus {
 }
 @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
   a:active {
-    background-color: #E25822;
+    background-color: transparent;
   }
 }
+
+
+@media only screen and (max-width: 767px) {
+#top #wrap_all .av_header_transparency, .av_header_transparency #advanced_menu_toggle {
+  background-color: #E25822 !important;
+}
+}
+
+
+
+
 p {
   margin: 0 0 20px;
 }
