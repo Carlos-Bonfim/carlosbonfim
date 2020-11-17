@@ -76,7 +76,7 @@ a:focus {
 }
 @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
   a:active {
-    background-color: transparent;
+    background-color: #E25822;
   }
 }
 p {
