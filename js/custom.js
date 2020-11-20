@@ -155,7 +155,7 @@
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
-                anchors: ['home', 'sobremim', 'habilidades', 'projetosDS', 'projetosBI', 'contato', 'slide07', 'slide08', 'slide09', 'slide10'],
+                anchors: ['home', 'sobremim', 'habilidades', 'projetosDS', 'projetosBI', 'contato', 'posts', 'slide07', 'slide08', 'slide09', 'slide10'],
                 menu: '#nav',
                 lazyLoad: true,
                 navigation: true,

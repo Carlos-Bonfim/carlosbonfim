@@ -362,20 +362,20 @@ a#logo {
 
 
 
-/* USE PARA DROPDOWN OPTIONS
+/* USE PARA DROPDOWN OPTIONS*/
 .dropdown:hover .dropdown-menu {
     display: block;
     position: absolute;
-    transform: translate3d(0px, 28px, 0px); /* distancia entre menu e btn 
+    transform: translate3d(0px, 20px, 0px); /* distancia entre menu e btn */
     top: 0px;
     left: 0px;
     will-change: transform;
-	background-color: #E25822;
+	background-color: #f59f7d;
 }
 .dropdown {
-    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela
-    list-style: none; rita a "bolinha" do LI
-}*/
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}
 
 
 
