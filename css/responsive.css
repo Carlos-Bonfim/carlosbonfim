@@ -198,13 +198,14 @@
 		position: fixed;
 		top: 0;
 		z-index: 6666;
-		background-color: rgba(250,250,250,0.9);
+		background-color: #E25822;
 	}
 	#navigation button i {
 		color: #1e1e1e;
 	}
 	.welcome-box {
 		padding: 150px 0px;
+		
 	}
 	#logo {
 		color: #1e1e1e;
@@ -246,9 +247,10 @@
 		margin: 0;
 		font-size: 15px;
 		text-align: center;
+		background-color: #E25822;
 	}
 	.navigation-menu > li > a {
-		color:#222;
+		color:#fff;
 		padding:15px;
 		line-height:1.2;
 	}
