@@ -122,11 +122,11 @@
                     },
                     576: {
                         items: 2,
-                        margin: 20
+                        margin: 10
                     },
                     992: {
                         items: 3,
-                        margin: 30
+                        margin: 20
                     }
                 }
             });
