@@ -205,7 +205,6 @@
 	}
 	.welcome-box {
 		padding: 150px 0px;
-		
 	}
 	#logo {
 		color: #1e1e1e;
@@ -358,6 +357,9 @@
 	.welcome-title {
 		font-size: 40px;
 	}
+	.welcome-box {
+		padding: 50px 0px;	
+	}
 	.welcome-first {
 		font-size: 16px;
 		margin-bottom:5px;
@@ -367,6 +369,19 @@
 	}
 	h1, h2 {
 		font-size:30px;
+	}
+	.about-contentbox span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+	}
+	.about-contentbox h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+	}
+	.about-contentbox p {
+  font-size: 14px;
 	}
 	.about-contentbox {
 		line-height:1.6;
@@ -393,7 +408,7 @@
 	  margin-bottom: 30px;
 	  font-size: 10px
 	}
-		.skills-row span {
+	.skills-row span {
 	  text-align: center;
 	  margin-bottom: 30px;
 	  font-size: 14px
