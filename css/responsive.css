@@ -386,11 +386,21 @@
 	.skill-item {
 	  border-bottom: 1px solid rgba(250,250,250,0.1);
 	  margin-bottom: 20px;
-	  padding-bottom: 50px;
+	  padding-bottom: 5px;
 	}
 	.skills-row h6 {
 	  text-align: left;
 	  margin-bottom: 30px;
+	  font-size: 10px
+	}
+		.skills-row span {
+	  text-align: center;
+	  margin-bottom: 30px;
+	  font-size: 14px
+	  display: inline-block;
+	  width: 40px;
+	  height: 40px;
+	  line-height: 45px;
 	}
 	.skill-bar {
 	  width: 100%;
