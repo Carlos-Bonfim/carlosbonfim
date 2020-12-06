@@ -109,10 +109,11 @@
         if ($('.gallery-list').length) {
             $('.gallery-list').owlCarousel({
                 loop: true,
-                nav: false,
-                dots: true,
+                nav: true,
+                dots: false,
                 items: 3,
-                autoplay: true,
+                autoplay: false,
+				navText : ["<i class='fa fa-hand-o-left'>. Navegue para conhecer .</i>","<i class='fa fa-hand-o-right'> </i>"],
                 smartSpeed: 700,
                 autoplayTimeout: 4000,
                 responsive: {
