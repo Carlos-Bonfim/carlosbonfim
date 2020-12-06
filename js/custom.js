@@ -113,7 +113,7 @@
                 dots: false,
                 items: 3,
                 autoplay: false,
-				navText : ["<button style='font-size:24px'><i class='fa fa-hand-o-left'></i></button>","<button style='font-size:24px'><i class='fa fa-hand-o-right'></i></button>"],
+				navText : ["<button style='font-size:12px'><i class='fa fa-hand-o-left'></i></button>","<button style='font-size:12px'><i class='fa fa-hand-o-right'></i></button>"],
                 smartSpeed: 700,
                 autoplayTimeout: 4000,
                 responsive: {
