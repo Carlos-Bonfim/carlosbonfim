@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<title>PortfolioPage - Galeria DS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#PowerBI" onclick="w3_close()" class="w3-bar-item w3-button">Power BI</a>
+  <!--<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>-->
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">Projetos em Ciencia de Dados "EM CONSTRUÇÃO"</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="../images/fraud_detector.png" alt="Detecção de Fraudes" style="width:100%">
+      <h3>Modelo Preditivo para Detecção de Fraudes</h3>
+      <p>Projeto de um modelo preditivo para detectar fraudes em transações com cartões. Neste projeto utilizei análise exploratória, técnicas de balanceamento das classes, treinei vários modelos e verifiquei com qual técnica performava melhor, por fim salvo o modelo em formato pickle e as previsões em uma arquivo xlsx.</p>
+		<a href="../pages/Modelo_Preditivo_para_detecção_fraudes.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/detector_fraudes"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="../images/spotify.png" alt="Steak" style="width:100%">
+      <h3>Recomendador de Músicas</h3>
+      <p>Sistema de recomendação baseado em cluster com dados reais coletados da API do Spotify. Além desse notebook foi criado um dashboard em power BI, verifique na seção de projetos de BI.</p>
+		<a href="../pages/Cluster_spotify.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/Recomendador_de_musicas"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
+    </div>
+<!--
+    <div class="w3-quarter">
+      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid--><!--
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
+      <h3>Salmon For Your Skin</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
+      <h3>Le French</h3>
+      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+  </div>
+
+  <!-- Pagination --><!--
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+ 
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Data Science</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Python</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Machine Learning</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Classificação</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NLP</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clusterização</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sistema de recomendação</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Web scrapping</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Porftfolio</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Visão Computacional</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Detecção de Fraudes</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Algoritmos supervisionados</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Algoritmos não supervisionados</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Inteligência Artificial</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
