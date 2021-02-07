@@ -12,7 +12,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <body>
 
 <!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:100px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-bar-item w3-button">Close Menu</a>
   <a href="#PowerBI" onclick="w3_close()" class="w3-bar-item w3-button">Power BI</a>
@@ -23,8 +23,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <div class="w3-top">
   <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-    <div class="w3-right w3-padding-16">Mail</div>
-    <div class="w3-center w3-padding-16">Projetos em Ciencia de Dados "EM CONSTRUÇÃO"</div>
+    <div class="w3-right w3-padding-16"><sub>carlosbonfim.com</sub></div>
+    <div class="w3-center w3-padding-16" style="color: black; font-weight: bold; font-size: 35px">Projetos em Ciencia de Dados "EM CONSTRUÇÃO"</div>
   </div>
 </div>
   
@@ -34,9 +34,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
-      <img src="../images/fraud_detector.png" alt="Detecção de Fraudes" style="width:100%">
+      <img src="../images/fraud_detector.png" alt="detecção de fraudes" style="width:100%">
       <h3>Modelo Preditivo para Detecção de Fraudes</h3>
-      <p>Projeto de um modelo preditivo para detectar fraudes em transações com cartões. Neste projeto utilizei análise exploratória, técnicas de balanceamento das classes, treinei vários modelos e verifiquei com qual técnica performava melhor, por fim salvo o modelo em formato pickle e as previsões em uma arquivo xlsx.</p>
+      <p>Projeto de um modelo preditivo para detectar fraudes em transações com cartões. Neste projeto utilizei análise exploratória e técnicas de balanceamento das classes para treinar o modelo.</p>
 		<a href="../pages/Modelo_Preditivo_para_detecção_fraudes.html"><font color="#ff0000">
 		Projeto</font>
 		</a>
@@ -45,7 +45,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 		</a>
     </div>
     <div class="w3-quarter">
-      <img src="../images/spotify.png" alt="Steak" style="width:100%">
+      <img src="../images/spotify.png" alt="spotify" style="width:100%">
       <h3>Recomendador de Músicas</h3>
       <p>Sistema de recomendação baseado em cluster com dados reais coletados da API do Spotify. Além desse notebook foi criado um dashboard em power BI, verifique na seção de projetos de BI.</p>
 		<a href="../pages/Cluster_spotify.html"><font color="#ff0000">
@@ -55,41 +55,123 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 		<br>Repositório</font>
 		</a>
     </div>
-<!--
     <div class="w3-quarter">
-      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
-      <h3>Cherries, interrupted</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-      <p>What else?</p>
+      <img src="../images/nlp.png" alt="nlp" style="width:100%">
+      <h3>NLP e Modelos Lineares</h3>
+      <p>Previsão com Processamento de Linguagem Natural e Modelos Lineares para previsão de tags com base nas perguntas.</p>
+		<a href="../pages/Previsao_de_Processamento_de_Linguagem_Natural_com_modelo_lineares.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/nlp_modelo_linear"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>  
     </div>
     <div class="w3-quarter">
-      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
-      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <img src="../images/prophet.png" alt="prophet" style="width:100%">
+      <h3>Series temporais com Prophet</h3>
+      <p>Demonstração de previsão de preços utilizando Prophet do Facebook.</p>
+		<a href="pages/Previsao_de_precos_com_Prophet.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/previsao_precos_prophet"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
     </div>
   </div>
   
-  <!-- Second Photo Grid--><!--
+  <!-- Second Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center">
     <div class="w3-quarter">
-      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <img src="../images/mkt_analytics.png" alt="mkt_analytics" style="width:100%">
+      <h3>Marketing Analytics</h3>
+      <p>Demonstração de um Projeto de Marketing Analytics para segmentos de "Food Delivery".</p>
+	  <a href="pages/Projeto_Segmentação_clientes_food_delivery-Final.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/Marketing_Analytics"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
     </div>
     <div class="w3-quarter">
-      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <img src="../images/sentiment_analysis.png" alt="sentiment_analysis" style="width:100%">
+      <h3>Sentiment Analysis</h3>
+      <p>Neste projeto aplico Análise de Sentimentos à discursos políticos e análise ao longo do tempo.</p>
+		<a href="pages/Modelagem_dos_topicos e analise_de_sentimentos.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/analise_sentimentos_discursos_politicos"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
     </div>
     <div class="w3-quarter">
-      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
-      <h3>The Perfect Sandwich, A Real Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <img src="../images/recomendador_filmes.png" alt="recomendador_filmes" style="width:100%">
+      <h3>Recomendador de filmes</h3>
+      <p>Neste projeto utilizo NLP e similaridade por coseno para filtros baseado em conteúdo para recomendar filmes.</p>
+		<a href="pages/Recomendador_de_filmes.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/recomendador_filmes"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
     </div>
     <div class="w3-quarter">
-      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <img src="../images/P1_filtros_OpenCV.png" alt="P1_filtros_OpenCV" style="width:100%">
+      <h3>Filtros em imagens com OpenCV</h3>
+      <p>Neste projeto utilizo técnicas de visão computacional para aplicar filtros em foto, como escala de cinza, converter em desenho e reduzir ruidos por exemplo.</p>
+		<a href="https://share.streamlit.io/carlos-bonfim/aplicar_filtros_imagens/main/main.py"><font color="#ff0000">
+		WebApp</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/Aplicar_filtros_imagens"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
+    </div>
+  </div>
+  
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="../images/boston.png" alt="mkt_analytics" style="width:100%">
+      <h3>Prevendo valores de imóveis</h3>
+      <p>Foi criado um WebApp para previsão de valores de imóveis com base nos atributos desejáveis.</p>
+		<a href="https://boston-house-prices.herokuapp.com/"><font color="#ff0000">
+		WebApp</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/predict_houses_boston"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
+</div><!--
+    <div class="w3-quarter">
+      <img src="../images/sentiment_analysis.png" alt="sentiment_analysis" style="width:100%">
+      <h3>Sentiment Analysis</h3>
+      <p>Neste projeto aplico Análise de Sentimentos à discursos políticos e análise ao longo do tempo.</p>
+		<a href="pages/Modelagem_dos_topicos e analise_de_sentimentos.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/analise_sentimentos_discursos_politicos"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="../images/recomendador_filmes.png" alt="recomendador_filmes" style="width:100%">
+      <h3>Recomendador de filmes</h3>
+      <p>Neste projeto utilizo NLP e similaridade por coseno para filtros baseado em conteúdo para recomendar filmes.</p>
+		<a href="pages/Recomendador_de_filmes.html"><font color="#ff0000">
+		Projeto</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/recomendador_filmes"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
+    </div>
+    <div class="w3-quarter">
+      <img src="../images/P1_filtros_OpenCV.png" alt="P1_filtros_OpenCV" style="width:100%">
+      <h3>Filtros em imagens com OpenCV</h3>
+      <p>Neste projeto utilizo técnicas de visão computacional para aplicar filtros em foto, como escala de cinza, converter em desenho e reduzir ruidos por exemplo.</p>
+		<a href="https://share.streamlit.io/carlos-bonfim/aplicar_filtros_imagens/main/main.py"><font color="#ff0000">
+		WebApp</font>
+		</a>
+		<a href="https://github.com/Carlos-Bonfim/Aplicar_filtros_imagens"><font color="#ff0000">
+		<br>Repositório</font>
+		</a>
     </div>
   </div>
 
